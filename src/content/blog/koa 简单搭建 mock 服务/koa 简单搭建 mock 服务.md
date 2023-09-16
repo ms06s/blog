@@ -48,11 +48,10 @@ export default MockDemo;
 
 此时开启预览服务
 
-![image-20230916130824652](./img/image-20230916130824652.png)
-
+![image-20230916130824652](/src/content/blog/koa%20简单搭建%20mock%20服务/img/image-20230916130824652.png)
 查看 network 面板，发现有正确请求
 
-![image-20230916131021030](./img/image-20230916131021030.png)
+![image-20230916131021030](/src/content/blog/koa%20简单搭建%20mock%20服务/img/image-20230916131021030.png)
 
 原因：mock 原理为劫持 XMLHttpRequest 请求，fetch 不能劫持
 
@@ -66,7 +65,7 @@ useEffect(() => {
 
 正确劫持
 
-![image-20230916131544216](./img/image-20230916131544216.png)
+![image-20230916131544216](/src/content/blog/koa%20简单搭建%20mock%20服务/img/image-20230916131544216.png)
 
 ## 关于客户端使用 mock 的一些局限性
 
